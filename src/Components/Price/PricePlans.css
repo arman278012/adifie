@@ -1,0 +1,12 @@
+.button {
+    transition: transform 0.3s ease, background-color 0.3s ease,
+      box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for a professional look */
+  }
+  
+  /* Hover effect */
+  .button:hover {
+      background-color: #b1ab2f; /* Darker shade of blue */
+      transform: rotate(15deg); /* Rotate 40 degrees */
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Enhance shadow on hover */
+  }

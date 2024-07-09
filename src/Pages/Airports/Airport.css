@@ -1,0 +1,15 @@
+hr.sep-3 {
+    border: none;
+    height: 1px;
+    background-image: linear-gradient(to right, #131212, #8f8f8f, #383434);
+  }
+  hr.sep-3::after {
+    content: '§';
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(60deg);
+    transform-origin: 50% 50%;
+    padding: 1rem;
+    background-color: white;
+  }

@@ -1,0 +1,122 @@
+
+
+
+.slider {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  width: 100%;
+}
+
+.slider--content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50vh;
+}
+
+.slider--feature {
+  text-align:center;
+  position: relative;
+  bottom: -10px;
+}
+
+.feature--title {
+  font-size: 5rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-shadow: 0px 11px 10px black;
+}
+
+.feature--text {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 1rem 0;
+}
+
+.slider__btn-right,
+.slider__btn-left {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 3rem;
+  color: #eee;
+  padding: 0 1rem;
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+}
+
+.feature__btn {
+  background: transparent;
+  text-transform: uppercase;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  outline: none;
+  font-weight: 700;
+  padding: 0.8rem 2rem;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.feature__btn:hover{
+  scale: 120%;
+  transform: scaleX(120%);
+  transition:ease-out 50ms ;
+}
+
+.slider__btn-left:hover,
+.slider__btn-right:hover {
+  transform: scale(0.95);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fadeIn {
+  animation: fadeIn 0.5s;
+}
+
+@media screen and (max-width: 680px){
+  .feature--title {
+    font-size: 3rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .slider{
+    height: 32vh;
+  }
+  .slider--content{
+    height: 32vh;
+  }
+  .feature--text {
+    font-size: 14px;
+    color: #fff;
+    margin: 1rem 0;
+  }
+  .feature__btn{
+    height: 40px;
+    width: 120px;
+    font-size: 12px;
+    margin-top: 0px;
+    padding: 10px;
+  }
+  .slider__btn-left{
+    font-size: 2rem;
+  }
+  .slider__btn-right{
+    font-size: 2rem;
+  }
+}
+
+  
+
+  
+  
