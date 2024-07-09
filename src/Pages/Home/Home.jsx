@@ -1,5 +1,4 @@
 // import Slider from "../../Components/Slider/Slider"
-import NavBar2 from "../../Components/Navbar/Navbar";
 import Goals from "../../Components/Goals/Goals";
 // import images from "../../Image"
 import Header from "../../Components/Header/Header";
